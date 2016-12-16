@@ -33,4 +33,11 @@ public class DataAccessGeneratorTest {
         dataAccessGenerator.setfXmlFile(fXmlFile);
         assertFalse(dataAccessGenerator.isValidFormat());
     }
+    
+    @Test
+    public void xml_valid_read1_should_returnCON_REPO(){
+        File fXmlFile = new File("src/main/java/data_repository.xml");
+        dataAccessGenerator.setfXmlFile(fXmlFile);
+        dataAccessGenerator.read();
+    }
 }

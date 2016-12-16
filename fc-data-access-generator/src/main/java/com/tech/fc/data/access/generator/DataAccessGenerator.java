@@ -42,4 +42,8 @@ class DataAccessGenerator {
         return false;
     }
 
+    void read() {
+        
+    }
+
 }
