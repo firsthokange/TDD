@@ -1,0 +1,5 @@
+<dataset>
+    <CON_REPO CODE="200"  NAME="คลังชั้น 10" TYPE="INT"/>
+    <CON_REPO CODE="501"  NAME="คลังชั้น 28" TYPE="INT"/>
+    <CONTAINER CON_NO="0001" NAME="ZONE เล่มทะเบียน" REPO_CODE="200"/>
+</dataset>
