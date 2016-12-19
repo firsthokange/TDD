@@ -43,4 +43,8 @@ public class DataAccessGeneratorTest {
     
     //
     // test
+    @Test
+    public void test_fail(){
+        assertTrue(false);
+    }
 }
