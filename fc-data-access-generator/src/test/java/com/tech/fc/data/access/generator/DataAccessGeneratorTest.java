@@ -40,4 +40,6 @@ public class DataAccessGeneratorTest {
         dataAccessGenerator.setfXmlFile(fXmlFile);
         dataAccessGenerator.read();
     }
+    
+    //
 }
